@@ -6,7 +6,7 @@ var game = new Phaser.Game( 200, 160, Phaser.AUTO, '', {
     update: update
 });
 
-var lord = new Lord("lord");
+var lord = new Lord("lord", {ATK:100});
 console.log(lord);
 var enemy;
 
